@@ -1,0 +1,8 @@
+ทดสอบการใช้node js ขั้นพื้นฐานๆ
+var fs = require('fs');
+var data = fs.readFileSync('hello.txt');
+
+console.log(data.toString());
+console.log('Do other things');
+
+
